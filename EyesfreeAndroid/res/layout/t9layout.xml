@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/parent"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/b1"
+            android:layout_weight="1"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text=".!?" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+            android:id="@+id/s1"
+	        android:padding="5sp">
+	    </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/b2"
+            android:layout_weight="1"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="abc" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s2"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/b3"
+            android:layout_weight="1"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="def" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s3"
+        android:padding="5sp">
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r2"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b4"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="ghi" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s4"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b5"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="jlk" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s5"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b6"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="mno" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s6"
+        android:padding="5sp">
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r3"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b7"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="pqrs " />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s7"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b8"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text=" tuv " />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s8"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b9"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text=" wxyz" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s9"
+        android:padding="5sp">
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r4"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b10"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="ENTER" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s10"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b0"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text="  _  " />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/s11"
+            android:padding="5sp">
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/b11"
+            android:background="#555555">
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textSize="20sp"
+                android:text=" DEL " />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

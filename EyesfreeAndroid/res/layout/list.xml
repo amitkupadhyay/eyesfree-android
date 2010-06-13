@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gestureoverlay"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    
+    android:gestureStrokeType="multiple"
+    android:eventsInterceptionEnabled="true"
+    android:orientation="vertical" >
+	<RelativeLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		    <EditText android:id="@+id/filter" 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="type to filter"
+		        android:inputType="text"
+		        android:maxLines="1" />
+		    <LinearLayout android:id="@+id/bottom"
+		        android:layout_width="fill_parent"
+		        android:layout_height="50dip"
+		        android:layout_alignParentBottom="true"
+		        android:orientation="horizontal" >
+		        <LinearLayout android:id="@+id/buttons"
+		           android:layout_width="fill_parent"
+		           android:layout_height="fill_parent"
+		           android:orientation="horizontal" >
+			        <Button android:id="@+id/t9button"
+				        android:layout_width="wrap_content"
+				        android:layout_height="fill_parent"
+				        android:layout_weight="1"
+				        android:text="Predictive Text" />
+				    <Button android:id="@+id/gesturebutton"
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1"
+			            android:text="Gesture Search" />
+			        <Button android:id="@+id/speakbutton"
+			            android:layout_width="wrap_content"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1"
+			            android:text="Voice Search" />
+		        </LinearLayout>
+		        <RelativeLayout android:id="@+id/gesturebottom"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:orientation="horizontal"
+	                android:visibility="gone" >
+	                <Button android:id="@+id/done"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="fill_parent"
+	                    android:layout_alignParentRight="true"
+	                    android:text="Done" />
+	                <LinearLayout android:id="@+id/gesturedisplay"
+	                    android:layout_toLeftOf="@id/done"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="fill_parent"
+	                    android:orientation="horizontal"
+	                    android:gravity="center_vertical" />
+	            </RelativeLayout>
+		    </LinearLayout>
+	    <ListView android:id="@+id/list"
+	        android:layout_above="@id/bottom"
+	        android:layout_below="@id/filter"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" />
+	</RelativeLayout>
+</android.gesture.GestureOverlayView>

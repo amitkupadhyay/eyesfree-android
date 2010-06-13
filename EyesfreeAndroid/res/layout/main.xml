@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	<LinearLayout
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_weight="1"
+	   android:orientation="horizontal" >
+	   <Button android:id="@+id/contacts"
+	       android:layout_width="wrap_content"
+	       android:layout_height="fill_parent"
+           android:typeface="monospace"
+	       android:textSize="24sp"
+	       android:text="Contacts"
+	       android:layout_weight="1" >
+	   </Button>
+	   <Button android:id="@+id/music"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:typeface="monospace"
+           android:textSize="24sp"
+           android:text=" Music  "
+           android:layout_weight="1" >
+       </Button>
+	</LinearLayout>
+	<LinearLayout
+	   android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:gravity="center" >
+		<TextView android:id="@+id/intro_text"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:gravity="center"
+           android:textSize="24sp"
+	       android:text="Select contacts or music to get started" />
+	</LinearLayout>
+</LinearLayout>

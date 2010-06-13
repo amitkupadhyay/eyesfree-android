@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="16sp"
+        android:text="Now Playing" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp" >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist:" />
+    </LinearLayout>
+    <TextView android:id="@+id/song_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="Artist" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp" >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:" />
+    </LinearLayout>
+    <TextView android:id="@+id/song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="Title" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp" >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album:" />
+    </LinearLayout>
+    <TextView android:id="@+id/song_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10sp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:text="Album" />
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <ProgressBar android:id="@+id/progress"
+            android:progress="0"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+	    <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@id/progress"
+	        android:orientation="horizontal"
+	        android:padding="10sp" >
+	        <Button android:id="@+id/previous"
+	           android:text="Prev"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1" />
+	        <LinearLayout android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:padding="5sp" />
+	        <Button android:id="@+id/playpause"
+	           android:text="Pause"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1" />
+	        <LinearLayout android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:padding="5sp" />
+	        <Button android:id="@+id/next"
+	           android:text="Next"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1" />
+	    </LinearLayout>
+	</RelativeLayout>
+</LinearLayout>
+
