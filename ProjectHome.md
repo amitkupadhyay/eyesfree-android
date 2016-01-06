@@ -1,0 +1,1 @@
+Eyesfree Android is an application which provides convenient access to content on a mobile phone with minimal need for looking at the phone. The application provides three intuitive ways to access contacts and music: speech recognition, gesture search, and T9 predictive text search.
